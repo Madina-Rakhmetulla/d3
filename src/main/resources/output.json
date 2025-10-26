@@ -1,0 +1,385 @@
+{"results": [
+  {
+    "prim": {
+      "mst_edges": [
+        {
+          "weight": 3,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 2,
+          "from": "C",
+          "to": "B"
+        },
+        {
+          "weight": 5,
+          "from": "B",
+          "to": "D"
+        },
+        {
+          "weight": 6,
+          "from": "D",
+          "to": "E"
+        }
+      ],
+      "total_cost": 16,
+      "execution_time_ms": 0.091916,
+      "operations_count": 5
+    },
+    "input_stats": {
+      "vertices": 5,
+      "edges": 6
+    },
+    "kruskal": {
+      "mst_edges": [
+        {
+          "weight": 2,
+          "from": "B",
+          "to": "C"
+        },
+        {
+          "weight": 3,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 5,
+          "from": "B",
+          "to": "D"
+        },
+        {
+          "weight": 6,
+          "from": "D",
+          "to": "E"
+        }
+      ],
+      "total_cost": 16,
+      "execution_time_ms": 0.040625,
+      "operations_count": 6
+    },
+    "graph_id": 1
+  },
+  {
+    "prim": {
+      "mst_edges": [
+        {
+          "weight": 2,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 4,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 3,
+          "from": "C",
+          "to": "D"
+        },
+        {
+          "weight": 5,
+          "from": "C",
+          "to": "E"
+        },
+        {
+          "weight": 4,
+          "from": "E",
+          "to": "G"
+        },
+        {
+          "weight": 2,
+          "from": "G",
+          "to": "F"
+        },
+        {
+          "weight": 3,
+          "from": "F",
+          "to": "H"
+        },
+        {
+          "weight": 1,
+          "from": "H",
+          "to": "I"
+        },
+        {
+          "weight": 8,
+          "from": "I",
+          "to": "J"
+        }
+      ],
+      "total_cost": 32,
+      "execution_time_ms": 0.030708,
+      "operations_count": 13
+    },
+    "input_stats": {
+      "vertices": 10,
+      "edges": 14
+    },
+    "kruskal": {
+      "mst_edges": [
+        {
+          "weight": 1,
+          "from": "H",
+          "to": "I"
+        },
+        {
+          "weight": 2,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 2,
+          "from": "F",
+          "to": "G"
+        },
+        {
+          "weight": 3,
+          "from": "C",
+          "to": "D"
+        },
+        {
+          "weight": 3,
+          "from": "F",
+          "to": "H"
+        },
+        {
+          "weight": 4,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 4,
+          "from": "E",
+          "to": "G"
+        },
+        {
+          "weight": 5,
+          "from": "C",
+          "to": "E"
+        },
+        {
+          "weight": 8,
+          "from": "I",
+          "to": "J"
+        }
+      ],
+      "total_cost": 32,
+      "execution_time_ms": 0.024541,
+      "operations_count": 14
+    },
+    "graph_id": 2
+  },
+  {
+    "prim": {
+      "mst_edges": [
+        {
+          "weight": 3,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 4,
+          "from": "C",
+          "to": "D"
+        },
+        {
+          "weight": 2,
+          "from": "D",
+          "to": "F"
+        },
+        {
+          "weight": 4,
+          "from": "F",
+          "to": "H"
+        },
+        {
+          "weight": 5,
+          "from": "D",
+          "to": "M"
+        },
+        {
+          "weight": 4,
+          "from": "M",
+          "to": "K"
+        },
+        {
+          "weight": 2,
+          "from": "K",
+          "to": "I"
+        },
+        {
+          "weight": 3,
+          "from": "I",
+          "to": "G"
+        },
+        {
+          "weight": 5,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 5,
+          "from": "G",
+          "to": "E"
+        },
+        {
+          "weight": 6,
+          "from": "H",
+          "to": "J"
+        },
+        {
+          "weight": 5,
+          "from": "J",
+          "to": "L"
+        },
+        {
+          "weight": 3,
+          "from": "L",
+          "to": "N"
+        },
+        {
+          "weight": 5,
+          "from": "N",
+          "to": "P"
+        },
+        {
+          "weight": 2,
+          "from": "P",
+          "to": "R"
+        },
+        {
+          "weight": 4,
+          "from": "R",
+          "to": "T"
+        },
+        {
+          "weight": 7,
+          "from": "M",
+          "to": "O"
+        },
+        {
+          "weight": 6,
+          "from": "O",
+          "to": "Q"
+        },
+        {
+          "weight": 3,
+          "from": "Q",
+          "to": "S"
+        }
+      ],
+      "total_cost": 78,
+      "execution_time_ms": 0.054417,
+      "operations_count": 20
+    },
+    "input_stats": {
+      "vertices": 20,
+      "edges": 25
+    },
+    "kruskal": {
+      "mst_edges": [
+        {
+          "weight": 2,
+          "from": "D",
+          "to": "F"
+        },
+        {
+          "weight": 2,
+          "from": "I",
+          "to": "K"
+        },
+        {
+          "weight": 2,
+          "from": "P",
+          "to": "R"
+        },
+        {
+          "weight": 3,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 3,
+          "from": "G",
+          "to": "I"
+        },
+        {
+          "weight": 3,
+          "from": "L",
+          "to": "N"
+        },
+        {
+          "weight": 3,
+          "from": "Q",
+          "to": "S"
+        },
+        {
+          "weight": 4,
+          "from": "C",
+          "to": "D"
+        },
+        {
+          "weight": 4,
+          "from": "F",
+          "to": "H"
+        },
+        {
+          "weight": 4,
+          "from": "K",
+          "to": "M"
+        },
+        {
+          "weight": 4,
+          "from": "R",
+          "to": "T"
+        },
+        {
+          "weight": 5,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 5,
+          "from": "E",
+          "to": "G"
+        },
+        {
+          "weight": 5,
+          "from": "J",
+          "to": "L"
+        },
+        {
+          "weight": 5,
+          "from": "N",
+          "to": "P"
+        },
+        {
+          "weight": 5,
+          "from": "D",
+          "to": "M"
+        },
+        {
+          "weight": 6,
+          "from": "H",
+          "to": "J"
+        },
+        {
+          "weight": 6,
+          "from": "O",
+          "to": "Q"
+        },
+        {
+          "weight": 7,
+          "from": "M",
+          "to": "O"
+        }
+      ],
+      "total_cost": 78,
+      "execution_time_ms": 0.044083,
+      "operations_count": 25
+    },
+    "graph_id": 3
+  }
+]}
